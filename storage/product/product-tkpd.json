@@ -1,0 +1,79 @@
+{
+  "id": "12312321",
+  "brand_id": "test-brand",
+  "action": "jsonrpc_product_fetched_manual/import_variant_consumer_cron",
+  "product": {
+    "channel": "tkpd",
+    "name": "Baju Baru Alhamdulillah",
+    "merek": "Alisan",
+    "sku": "1234",
+    "description": "Baju Baru Buat Hari Raya",
+    "slug": "baju-baru-alhamdulillah",
+    "condition": "New",
+    "img_urls": [
+      "https://images.tokopedia.net/img/cache/700/hDjmkQ/2024/1/26/e25eacce-1e6d-48e1-bf09-f6c5a4090875.jpg",
+      "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/2/21/cd68c447-ab5d-41e6-a47a-d3e4f3eb0c2c.png",
+      "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/2/21/37fefb31-eacf-4528-824f-a4675097de97.jpg"
+    ],
+    "attributes": [
+      {
+        "name": "Brand",
+        "value": "NoBrand"
+      }
+    ],
+    "variants": {
+      "variant_sku": "1234-XL",
+      "variant_name": "Baju Baru Size XL",
+      "status": "active/inactive",
+      "currency_code": "IDR",
+      "price": 10000,
+      "variant_raw": "raw response(from mp)",
+      "url": "bukalapak.com/baju-baru-alhamdulillah",
+      "img_urls": [""],
+      "volume": {
+        "height": 0,
+        "length": 0,
+        "unit": "CM",
+        "width": 0
+      },
+      "weight": {
+        "unit": "G",
+        "value": 0
+      },
+      "attributes": [
+        {
+          "name": "color",
+          "value": "red"
+        },
+        {
+          "name": "size",
+          "value": "XL"
+        }
+      ],
+      "options": [
+        {
+          "name": "color",
+          "value": "red"
+        },
+        {
+          "name": "size",
+          "value": "XL"
+        }
+      ],
+      "remote_variant": {
+        "sku": "S16722884512",
+        "upload_id": 0,
+        "product_id": 7350333439,
+        "variant_id": 7350333458,
+        "product_sku": "1704988921",
+        "transaction_id": "",
+        "err_message": ""
+      },
+      "stock": 10
+    },
+    "remote_category": {
+      "remote_category_id": "779",
+      "remote_category_name": "Fashion"
+    }
+  }
+}

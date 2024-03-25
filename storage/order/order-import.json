@@ -1,0 +1,62 @@
+{
+    "order": {
+        "id": "{{increment_id}}",
+        "increment_id": "{{increment_id}}",
+        "channel_code": "SWIFT",
+        "email": "agung.nugraha@sirclo.com",
+        "firstname": "Agung",
+        "lastname": "Nugraha",
+        "company": "70",
+        "ordered_at": "{{created_at}}",
+        "status": "processing",
+        "customer_group": "General",
+        "shipping_longitude": "",
+        "shipping_latitude": "",
+        "grand_total": "{{grand_total}}",
+        "shipping_address": {
+            "address": "Jl. Jogja-Solo No. 12",
+            "city": "Sleman, Berbah, Kali Tirto",
+            "postal_code": 55573,
+            "state": "ID-YO",
+            "country": "ID",
+            "phone": 81222323086
+        },
+        "billing_address": {
+            "address": "Jl. Jogja-Solo No. 12",
+            "city": "Sleman, Berbah, Kali Tirto",
+            "postal_code": 55573,
+            "state": "ID-YO",
+            "country": "ID",
+            "phone": 81222323086
+        },
+        "payment": {
+            "payment_method": "banktransfer"
+        },
+        "shipping": {
+            "shipping_method": "SICEPAT_REG",
+            "shipping_cost": 22000
+        },
+        "custom_order_attribute": {
+            "remark": "",
+            "provider": "SICEPAT",
+            "service": "REG",
+            "pickup_person_name": "",
+            "pickup_person_phone": "",
+            "pickup_person_email": "",
+            "pos_payments": ""
+        },
+        "item_lines": [
+            {
+                "sku": "24-MB01",
+                "qty": "1",
+                "base_price": "180000",
+                "sell_price": "180000",
+                "is_pickup": "0",
+                "loc_code": "",
+                "discount_amount": "0.0000",
+                "is_manage_stock": 1,
+                "custom_item_attribute": {}
+            }
+        ]
+    }
+}
